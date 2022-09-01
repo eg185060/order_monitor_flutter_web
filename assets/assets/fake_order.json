@@ -1,0 +1,308 @@
+{
+  "channel": "WalkIn",
+  "currency": "USD",
+  "customer": {
+    "externalIds": [
+      {
+        "lineId": "LoyaltyLineId",
+        "type": "Loyalty",
+        "value": "0123456789notasharedkey987654321"
+      }
+    ],
+    "firstName": "Robert",
+    "lastName": "Taft",
+    "email": "robert.taft@potus.gov"
+  },
+  "status": "Finished",
+  "totals": [
+    {
+      "lineId": "dd76f0f9cebd462881e9fa877abe3c3a",
+      "type": "Net",
+      "value": 37.12
+    }
+  ],
+  "fulfillment": {
+    "address": {
+      "type": "Residential"
+    },
+    "leadTimes": [
+      {
+        "lineId": "PreperationLineId",
+        "type": "Preparation",
+        "interval": 10,
+        "intervalUnits": "Minutes"
+      },
+      {
+        "lineId": "TransitLineId",
+        "type": "Transit",
+        "interval": 0,
+        "intervalUnits": "Minutes"
+      }
+    ],
+    "pickupDate": "2022-08-21T23:59:48.917Z",
+    "type": "Pickup",
+    "autoRelease": true,
+    "catering": false
+  },
+  "expireAt": "2022-09-22T00:01:08.844Z",
+  "fees": [
+    {
+      "lineId": "4ea816ef5a7841fb90b1e832e458465e",
+      "type": "WalkIn",
+      "amount": 0.0
+    }
+  ],
+  "orderLines": [
+    {
+      "lineId": "0f972c4f-cafc-4caa-b6f6-bf571fecd33a",
+      "description": "16pc BOX",
+      "extendedAmount": 0.0,
+      "productId": {
+        "value": "2705"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "ace19d77-5c88-463d-996d-a594e32e1d2f",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": false
+    },
+    {
+      "lineId": "0c2527f6-39dc-47ce-998b-d87e406cb4d7",
+      "description": "16PC CUST",
+      "extendedAmount": 0.0,
+      "productId": {
+        "value": "2680"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "d278fcd3-62ec-47cb-be2f-83dbff807f7c",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": false
+    },
+    {
+      "lineId": "a4da240e-a0e1-4f76-8cd7-de6259cc8e8c",
+      "description": "LEG SPICY(4)",
+      "extendedAmount": 0.0,
+      "parentLineId": "0c2527f6-39dc-47ce-998b-d87e406cb4d7",
+      "productId": {
+        "value": "10590"
+      },
+      "quantity": {
+        "value": 4.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "e84e3814-0c58-43cc-bed3-bdd38718ed0d",
+      "linkGroupCode": "11090",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "c850f00e-9f5d-42c1-841f-c0ac01deb560",
+      "description": "WING SPICY(4)",
+      "extendedAmount": 0.0,
+      "parentLineId": "0c2527f6-39dc-47ce-998b-d87e406cb4d7",
+      "productId": {
+        "value": "10680"
+      },
+      "quantity": {
+        "value": 4.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "2b06e5d7-65b0-427e-b725-45376cf7ffcb",
+      "linkGroupCode": "11090",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "83b13abf-cc76-4054-98a0-75c80b6b99b4",
+      "description": "BREAST SPICY(4)",
+      "extendedAmount": 0.0,
+      "parentLineId": "0c2527f6-39dc-47ce-998b-d87e406cb4d7",
+      "productId": {
+        "value": "10540"
+      },
+      "quantity": {
+        "value": 4.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "ea2cfab5-fad2-4770-ac17-9e927ff7ebd3",
+      "linkGroupCode": "11090",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "6dc448c1-bbd4-4b49-a084-0eead43f463f",
+      "description": "THIGH SPICY(4)",
+      "extendedAmount": 0.0,
+      "parentLineId": "0c2527f6-39dc-47ce-998b-d87e406cb4d7",
+      "productId": {
+        "value": "10665"
+      },
+      "quantity": {
+        "value": 4.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "f0cce8ac-dfbd-4907-825d-6e4afe06226d",
+      "linkGroupCode": "11090",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "b03c7d3f-4e27-4db8-8192-ff4c1e35f6b9",
+      "description": "MASH&GRAVY LG",
+      "extendedAmount": 4.69,
+      "productId": {
+        "value": "11140"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 4.69,
+      "supplementalData": "dfa68210-ccd8-440d-aae3-50114a71ed0c",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "d53376dd-827a-4c59-bbde-18741061d527",
+      "description": "COLESLAW RG",
+      "extendedAmount": 3.19,
+      "productId": {
+        "value": "11015"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 3.19,
+      "supplementalData": "81412088-878e-4f01-8f94-d85510d01c32",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": true
+    },
+    {
+      "lineId": "d8aa78a2-265b-4979-9b70-0834aa087a6a",
+      "description": "A LA CARTE",
+      "extendedAmount": 0.0,
+      "productId": {
+        "value": "2549"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "loyalty",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": false
+    },
+    {
+      "lineId": "ea541292-633a-4a0d-ba17-6fe71cde7f96",
+      "description": "2 BISCUITS",
+      "extendedAmount": 0.0,
+      "productId": {
+        "value": "10003"
+      },
+      "quantity": {
+        "value": 1.0
+      },
+      "substitutionAllowed": false,
+      "unitPrice": 0.0,
+      "supplementalData": "7396641a-e2c5-44d8-956a-c044afad5b10",
+      "fulfillmentResult": "Fulfilled",
+      "overridePrice": false
+    }
+  ],
+  "payments": [
+    {
+      "lineId": "a48a8925-9553-4ff4-87e2-84a50e6c8f2d",
+      "amount": 37.12,
+      "gratuity": 0.0,
+      "status": "Paid",
+      "type": "Other",
+      "subType": "PrePaid_Visa",
+      "payBalance": false
+    }
+  ],
+  "taxes": [
+    {
+      "lineId": "69878cdacabb4ea68dd544625d3465e7",
+      "amount": 2.75,
+      "description": "Store Calculated Tax",
+      "isIncluded": false
+    }
+  ],
+  "promotions": [
+    {
+      "lineId": "3c336d91c2374a4996951e06a2a0136f",
+      "referenceId": "375",
+      "amount": 25.99,
+      "numGuests": 0,
+      "orderLineGroups": [
+        {
+          "lineId": "0",
+          "orderLineIds": [
+            "0f972c4f-cafc-4caa-b6f6-bf571fecd33a"
+          ]
+        },
+        {
+          "lineId": "1",
+          "orderLineIds": [
+            "0c2527f6-39dc-47ce-998b-d87e406cb4d7"
+          ]
+        }
+      ],
+      "adjustment": {
+        "level": "ITEM",
+        "type": "PROMO"
+      }
+    },
+    {
+      "lineId": "181e64b20e024fcba014ec26f9eef1f3",
+      "referenceId": "4635",
+      "amount": 1.0,
+      "numGuests": 0,
+      "orderLineGroups": [
+        {
+          "lineId": "0",
+          "orderLineIds": [
+            "d8aa78a2-265b-4979-9b70-0834aa087a6a"
+          ]
+        },
+        {
+          "lineId": "1",
+          "orderLineIds": [
+            "ea541292-633a-4a0d-ba17-6fe71cde7f96"
+          ]
+        }
+      ],
+      "adjustment": {
+        "level": "ITEM",
+        "type": "PROMO"
+      }
+    }
+  ],
+  "additionalReferenceIds": {
+    "AtoOrderId": "2",
+    "AlohaCheckId": "1",
+    "AtoReferenceId": "0"
+  },
+  "taxExempt": true,
+  "partySize": 1,
+  "dateFulfilled": "2022-08-22T00:01:08.844Z",
+  "dateCreated": "2022-08-21T23:59:48.524Z",
+  "dateUpdated": "2022-08-22T00:01:09.079Z",
+  "id": "9001",
+  "sourceOrganization": "notanorg",
+  "dateAcknowledged": "2022-08-22T00:01:09.536Z",
+  "etag": "2022-08-22T00:01:09.079Z"
+}
