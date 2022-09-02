@@ -23008,8 +23008,7 @@ a8x:function a8x(a,b){this.a=a
 this.b=b},
 a8w:function a8w(){},
 a8y:function a8y(a){this.a=a},
-aHO(a){var s="assets/logos/wawa_logo.svg",r="assets/logos/kfc_logo.svg",q="assets/logos/taco_bell_logo.svg",p="assets/logos/chipotle_logo.svg"
-switch(a){case"burger-king":return"assets/logos/burger_king_logo.svg"
+aHO(a){switch(a){case"burger-king":return"assets/logos/burger_king_logo.svg"
 case"city-bbq":return"assets/logos/city_bbq_logo.svg"
 case"grimaldis-pizza":return"assets/logos/grimaldis_logo.svg"
 case"popeyes":return"assets/logos/popeyes_logo.svg"
@@ -23027,23 +23026,16 @@ case"tavern-in-the-square":return"assets/logos/tavern_in_the_square_logo.svg"
 case"black-walnut-cafe":return"assets/logos/black_walnut_cafe_logo.svg"
 case"spin-concepts-inc":return"assets/logos/spin_pizza_logo.svg"
 case"kwiktrip-prod":return"assets/logos/kwik_trip_logo.svg"
-case"wawa-prod":return s
-case"wawa-dev":return s
-case"wawa-preprod":return s
+case"wawa-prod":case"wawa-dev":case"wawa-preprod":return"assets/logos/wawa_logo.svg"
 case"chuck-e-cheese":return"assets/logos/chuck_e_cheese_logo.svg"
 case"cafe-rio-mexican-grill":return"assets/logos/cafe_rio_logo.svg"
 case"huey-lueys":return"assets/logos/huey_lueys_logo.svg"
 case"rutters-prod":return"assets/logos/rutters_logo.svg"
-case"kfc":return r
-case"kfc-jamaica":return r
-case"kfc-brazil":return r
-case"kfc-aus":return r
-case"taco-bell-canada":return q
-case"taco-bell-nz":return q
+case"kfc":case"kfc-jamaica":case"kfc-brazil":case"kfc-aus":return"assets/logos/kfc_logo.svg"
+case"taco-bell-canada":case"taco-bell-nz":return"assets/logos/taco_bell_logo.svg"
 case"homeroom510":return"assets/logos/homeroom_logo.svg"
-case"chipotle-prod":return p
-case"chipotle-dev":return p
-case"chipotle-non-prod":return p
+case"chipotle-prod":case"chipotle-dev":case"chipotle-non-prod":return"assets/logos/chipotle_logo.svg"
+case"northgate-markets-lab":case"northgate-markets-dev":case"northgate-markets-preprod":case"northgate-markets-prod":return"assets/logos/northgate_markets_logo.svg"
 default:return"assets/logos/unknown_logo.svg"}},
 a8z:function a8z(a,b,c,d,e){var _=this
 _.b=a
