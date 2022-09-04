@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "628543b598adf2c97b194ad73dd2feb7",
+  "assets/AssetManifest.json": "067dfe8de0e5b5c549de0db82d3b984a",
 "assets/assets/fake_order.json": "51c3d07d15096ebe293a3c7e02ba64bc",
 "assets/assets/icons/appwrite.svg": "bc10eb4961df26bef9801101d2bddd56",
 "assets/assets/icons/flutter.png": "0efb1267e1dc7b9173a9adf4d389f66b",
@@ -44,10 +44,11 @@ const RESOURCES = {
 "assets/assets/logos/whole_foods_logo.svg": "7c6f95e5f0958c8fd987de8ac6568171",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "451713ec5fb33ac003b198864ad8a4ae",
+"assets/NOTICES": "dad36d9990b6bdda1fb5b66be0899ba3",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
+"assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/shaders/ink_sparkle.frag": "203e7db9db24d1e5e7bbf2f9e6e4bc34",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
@@ -59,9 +60,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "0b6c013f4e5ab222632cf28bb0c0f819",
-"/": "0b6c013f4e5ab222632cf28bb0c0f819",
-"main.dart.js": "8d703a6f0c85e89ce2f0e345116eea55",
+"index.html": "75a15add0dfa4135b5d51dabc65cf530",
+"/": "75a15add0dfa4135b5d51dabc65cf530",
+"main.dart.js": "79cfb120f161b8b723525ff2ecb833c0",
 "manifest.json": "9c0cff54f8678ea0dbaf8f4aef3ab9ee",
 "version.json": "911091fe434c5af98a323d4e1d68bb4c"
 };
