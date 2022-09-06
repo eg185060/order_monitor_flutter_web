@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<title>Authentication complete</title>
+<title>NCR BSL Order Monitor</title>
 <p>Authentication is complete. If this does not happen automatically, please close the window.
 <script>
+  var p = document.createElement("p");
+  p.innerHtml = "Hello, World";
+  document.body.appendChild(p);
   window.opener.postMessage({
     'flutter-web-auth-2': window.location.href
   }, window.location.origin);
