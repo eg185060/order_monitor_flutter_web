@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>NCR BSL Order Monitor</title>
+</head>
+<body>
+    <p>Authentication is complete. If this does not happen automatically, please close the window.
+</body>
+<script>
+  console.log("window.opener: " + window.opener);
+  var opener = document.createElement("p");
+  opener.innerHTML = "window.opener: " + window.opener;
+  document.body.appendChild(opener);
+
+  console.log("window.location.href: " + window.location.href);
+  var locationHref = document.createElement("p");
+  locationHref.innerHTML = "window.location.href: " + window.location.href;
+  document.body.appendChild(locationHref);
+
+  console.log("window.location.origin: " + window.location.origin);
+  var locationOrigin = document.createElement("p");
+  locationOrigin.innerHTML = "window.location.origin: " + window.location.origin;
+  document.body.appendChild(locationOrigin);
+
+    try {
+      window.opener.postMessage({
+        'flutter-web-auth-2': window.location.href
+      }, window.location.origin);
+    } catch (error) {
+      console.error(error);
+      var errorPara = document.createElement("p");
+      errorPara.innerHTML = "error: " + error;
+      document.body.appendChild(errorPara);
+    }
+
+  window.close();
+</script>
