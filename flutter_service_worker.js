@@ -3,14 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "fb46a68d5a4c399099f2f0dc037fcc5a",
+  "assets/AssetManifest.json": "419951821c9decd4f30e8139dd1d3673",
 "assets/assets/fake_order.json": "34b3bf4d47ced8dd705d4d17b6ae9411",
 "assets/assets/icons/appwrite.svg": "bc10eb4961df26bef9801101d2bddd56",
 "assets/assets/icons/flutter.png": "0efb1267e1dc7b9173a9adf4d389f66b",
 "assets/assets/icons/icon.png": "e4eab37bdc5cc1400aaa1a0211159168",
 "assets/assets/icons/ncr.svg": "4405ef093df7d364db54dad4ef9eb3fb",
 "assets/assets/icons/okta.svg": "e39bce750ca5dff5b7a010f457023865",
-"assets/assets/icons/otka_logo.svg": "e39bce750ca5dff5b7a010f457023865",
 "assets/assets/logos/andy_frozen_custard_logo.svg": "308674c3ce60f67bfbecfcad649f2861",
 "assets/assets/logos/black_walnut_cafe_logo.svg": "0a53cd0f074f998067aec12568d21bde",
 "assets/assets/logos/boomerjacks_grill_bar_logo.svg": "187a78f6cc52bc6b6c312fa4a2d136b7",
@@ -22,7 +21,6 @@ const RESOURCES = {
 "assets/assets/logos/crisp_green_logo.svg": "d7b6b70ca6cbf99eb96eb68a03dc31be",
 "assets/assets/logos/einstein_bros_bagels_logo.svg": "8945fc4a9ed7de94921b24de13621605",
 "assets/assets/logos/fatz_cafe_logo.svg": "09501f29898168ee3746124f795dd2af",
-"assets/assets/logos/google_logo.svg": "14137f89247c1ab0eb29e8b75ef6e9d6",
 "assets/assets/logos/grimaldis_logo.svg": "9644e5ada2769620514972ceb08b3b22",
 "assets/assets/logos/homeroom_logo.svg": "4687024cef7f2862f46c000c41ebdf77",
 "assets/assets/logos/hoots_logo.svg": "8c0995126cd7f50b33bf08274f59cbc1",
@@ -32,7 +30,6 @@ const RESOURCES = {
 "assets/assets/logos/kum_and_go_logo.svg": "327dbef537ced27dc576b469eddf978b",
 "assets/assets/logos/kwik_trip_logo.svg": "826290d18a1b50ac1e52c7830ef3f235",
 "assets/assets/logos/meijer_logo.svg": "0ae93be932acab09b2d56e2b07bb24ed",
-"assets/assets/logos/ncr_logo.svg": "3e4a871a84af8c156a4ca258c2651c25",
 "assets/assets/logos/northgate_markets_logo.svg": "7246b6dbc35c2fa2f2f3776288075fc1",
 "assets/assets/logos/pizza_hut_logo.svg": "78be2de6c35cc1f17773ac7701646c90",
 "assets/assets/logos/popeyes_logo.svg": "dc9b36d28acf797a6adf9cf29883ce7c",
@@ -76,9 +73,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "a6f823160a3be61fe9ee7da442534e92",
 "icons/Icon-maskable-192.png": "684ab52c17a2df90f9f822b9b9430b0c",
 "icons/Icon-maskable-512.png": "a6f823160a3be61fe9ee7da442534e92",
-"index.html": "33bd057f149d2b49aad256540a4c3c35",
-"/": "33bd057f149d2b49aad256540a4c3c35",
-"main.dart.js": "58ac6c54f7490d9eb4de77e592b51c0a",
+"index.html": "83db8db99a8ddb3e4f5d54debeb71c98",
+"/": "83db8db99a8ddb3e4f5d54debeb71c98",
+"main.dart.js": "07f31c7e1f70baaff595334b50479b57",
 "manifest.json": "0dbfb1e4901e4dd7725b0bcfe45bea10",
 "version.json": "911091fe434c5af98a323d4e1d68bb4c"
 };
