@@ -14,61 +14,6 @@
    id="svg25110"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="wawa_logo.svg">
-  <defs
-     id="defs25104">
-    <clipPath
-       id="clipPath24115"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path24113"
-         d="M 527.682,1540.8 H 344.708 v -79.517 h 182.974 z" />
-    </clipPath>
-    <clipPath
-       id="clipPath24087"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path24085"
-         d="M 527.682,1540.8 H 344.708 v -79.517 h 182.974 z" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.2873543"
-     inkscape:cx="921.62651"
-     inkscape:cy="423.08966"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     units="px"
-     inkscape:window-width="1267"
-     inkscape:window-height="1198"
-     inkscape:window-x="1073"
-     inkscape:window-y="18"
-     inkscape:window-maximized="0"
-     inkscape:document-rotation="0" />
-  <metadata
-     id="metadata25107">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
