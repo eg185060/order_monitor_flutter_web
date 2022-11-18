@@ -25732,6 +25732,8 @@ case"northgate-markets-lab":case"northgate-markets-dev":case"northgate-markets-p
 case"pizza-hut-germany-prod":return"assets/logos/pizza_hut_logo.svg"
 case"firehouse-subs":return"assets/logos/firehouse_subs_logo.svg"
 case"buffalo-wild-wings":return"assets/logos/buffalo_wild_wings_logo.svg"
+case"wendys-prod":return"assets/logos/wendys_logo.svg"
+case"kelp-sushi-joint":return"assets/logos/kelp_sushi_joint_logo.svg"
 default:return"assets/logos/unknown_logo.svg"}},
 afy:function afy(a,b,c,d,e,f){var _=this
 _.b=a
